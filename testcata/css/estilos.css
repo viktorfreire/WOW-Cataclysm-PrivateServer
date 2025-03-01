@@ -1,0 +1,403 @@
+@charset "utf-8";
+/* CSS Document developed by Ing. Victor Freire */
+
+		@font-face {
+
+			font-family: "wow";
+			src: url("../fonts/b_wrath.TTF") format("truetype");
+
+		}
+
+		/*body{
+			background:#E6E6E6;
+		}*/
+		body {
+			background-attachment:fixed;
+			background-color:#907851;
+			background-image:url("../imagenes/jpg/head_facebook.jpg");
+			background-position:left top;
+			background-repeat:no-repeat;
+			margin:0 auto;
+			padding:0;
+		}
+		/* EFECTO TRIBAL CON FONDO DE MADERA */
+		#art-page-background-simple-gradient, #art-page-background-gradient, #art-page-background-glare {
+			min-width:1000px;
+			z-index:-2;
+		}
+		#art-page-background-glare  {
+			height:472px;
+			left:0;
+			position:absolute;
+			top:0;
+			width:100%;
+		}
+		#art-page-background-glare-image  {
+			background-image:url("../imagenes/png/pagebgglare.png");
+			background-repeat:no-repeat;
+			height:472px;
+			margin:0;
+			width:417px;
+		}
+		/* FIN DEL EFECTO */
+		.titulo{
+			background:#333;
+			font-family:wow;
+			font-size:18px;
+			font-weight:bold;
+			color:#FFFFFF;
+			text-align:center;
+			width:30%;
+		}
+		.titulo_wow{
+			font-family:wow;
+			font-size:14px;
+			font-weight:bold;
+			color:#333;
+		}
+		.alerta{
+			min-height:160px;
+			background:url(../imagenes/png/alert.png) bottom right no-repeat;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:10px;
+			font-weight:bold;
+			color:#FF0000;
+			text-align:justify;
+		}
+		.positivo{
+			min-height:160px;
+			background:url(../imagenes/png/gtk-apply.png) bottom right no-repeat;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:10px;
+			font-weight:bold;
+			color:#0099CC;
+			text-align:justify;
+		}
+		.chistoso{
+			min-height:160px;
+			background:url(../imagenes/jpg/palomita.jpg) bottom right no-repeat;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:12px;
+			font-weight:bold;
+			color:#0099CC;
+			text-align:justify;
+		}
+		.cuerpo{
+			width:800px;
+			height:620px;
+			padding:10px;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:12px;
+			color:#333333;
+			text-align:center;
+		}
+		.txt_input{
+			padding-left:12px;
+			background:url(../imagenes/gif/bullet_verde.gif) left no-repeat;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:12px;
+			color:#FF9900;
+			font-weight:bold;
+			text-align:left;
+		}
+		.entrada{
+			height:360px;
+			background:url(../imagenes/png/fondo_entrada.png) top no-repeat;
+			padding-top:50px;
+		}
+		.logo_vwd{
+			width:520px;
+			height:150px;
+			background:url(../imagenes/jpg/mano001.jpg) right top no-repeat;
+		}
+		.texto{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:10px;
+			color:#333333;
+			text-align:center;
+		}
+		.msg{
+			width:35%;
+			height:25px;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:10px;
+			color:#FF9900;
+			text-align:center;
+			background:none;
+		}
+		
+		a:link {
+			font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			color:#333333;
+			text-decoration:none;
+		}
+		
+		a:visited {
+			font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+			font-size: 11px; 
+			color:#333333;
+			text-decoration:none;
+		}
+		
+		a:hover {
+			font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			color:#006699;
+			text-decoration:none;
+		}
+		
+		a:active {
+			font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			color:#006699;
+			text-decoration:none;
+		}
+		
+		img{
+			border:none;
+		}
+		
+		.boton{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:10px;
+			background:url(../imagenes/png/up_down.png) top left repeat-x;
+			color:#009900;
+			border:#cccccc solid 1px;
+		}
+
+		.sistema{
+			width:100%;
+			height:610px;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:10px;
+			border:#CCCCCC solid 2px;
+			background:#FFFFFF;
+		}
+
+		.encabezado{
+			width:98%;
+			height:70px;
+			margin:1%;
+			border:#CCCCCC solid 1px;
+			background:url(../imagenes/png/up_down.png) bottom left repeat-x;
+		}
+		
+		.encabezado .nombre_empresa{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:14px;
+			font-weight:bold;
+			color:#333333;
+		}
+		
+		.encabezado .rif_empresa{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:8px;
+			color:#333333;
+		}
+		
+		.encabezado .fecha, .hora{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:10px;
+			color:#0099CC;
+			padding-top:5px;
+		}
+		
+		.central{
+			width:100%;
+			height:495px;
+			border:none;
+			background:none;
+		}
+		
+		.central .menu{	
+			float:left;
+			margin-left:1%;
+			margin-top:2%;
+			padding:5%;
+			width:200px;
+			height:460px;
+			border:#CCCCCC solid 1px;
+			background:url(../imagenes/png/fondo_menu.png) bottom left repeat;
+		}
+		
+		.central .menu .actualiza_menu{
+			height:430px;
+			background:none;
+			padding:2%;
+			overflow:auto;
+		}
+		
+		.central .contenedor{
+			float:left;
+			margin-left:1%;
+			margin-top:2%;
+			padding:2%;
+			width:573px;
+			height:460px;
+			border:#CCCCCC solid 1px;
+			background:url(../imagenes/png/down_up.png) top left repeat-x;
+		}
+		
+		.central .contenedor .actualiza_contenedor{
+			height:405px;
+			background:none;
+			padding:2%;
+			overflow:auto;
+		}
+		
+		.pie{
+			width:98%;
+			margin:1%;
+			height:25px;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:10px;
+			border:#CCCCCC solid 1px;
+			background:url(../imagenes/png/down_up.png) top left repeat-x;
+		}
+		
+		hr{
+			background:#CCCCCC;
+			color:#CCCCCC;
+			border:#CCCCCC solid 1px;
+		}
+		
+		
+		
+		ul#nav{
+		  list-style-type:none;
+		  margin: 0;
+		  padding: 0;
+		  width: 100%;
+		}
+		
+		ul#nav ul {
+		  list-style-type:none;
+		  margin: 0;
+		  padding: 0;
+		  width:100%;
+		  min-height:40px;
+		  display:none;
+		}
+		
+		ul#nav a {
+		  display: block;
+		  text-decoration: none;
+		}
+		
+		ul#nav li {
+		  margin-top: 1px; 
+		}
+		
+		ul#nav li a {
+		  background:none;
+		  /*border:#A3B2C9 solid 1px;*/
+		  color:#333333;	
+		  padding:0.5em;
+		  font-family: Verdana, Helvetica, Arial, sans-serif;
+		  font-weight:bold;
+		  font-size:10px;
+		}
+		
+		ul#nav li a:hover {
+		  background: #E6E6E6;
+		  color:#009900;
+		}
+		
+		ul#nav li ul {
+			width:98%;
+			border-bottom:#009900 solid 2px;
+			border-left:#009900 solid 1px;
+			border-right:#009900 solid 2px;
+		}
+		
+		ul#nav li ul li a {
+		  background:none;
+		  color:#333333;
+		  padding-left: 5px;
+		  text-align:justify;
+		  font-weight:normal;
+		}
+		
+		ul#nav li ul li a:hover {
+		  background:#fff4dd;
+		  color:#009900;
+		  border-left: 5px #009900 solid;
+		  padding-left: 0px;
+		}
+		
+		ul#nav li ul li ul {
+		  background:none;
+		  color:#333333;
+		  padding-left: 20px;
+		  width:89%;
+		  text-align:justify;
+		  font-weight:normal;
+		  border:none;
+		}
+		
+		ul#nav li ul li ul li a{
+		  background:url(../imagenes/gif/bullet_verde.gif) left center no-repeat;
+		  color:#333333;
+		  padding-left: 15px;
+		  text-align:justify;
+		  font-weight:normal;
+		}
+		
+		ul#nav li ul li ul li a:hover{
+			background:#fff4dd url(../imagenes/gif/bullet_verde.gif) left center no-repeat;
+		  	color:#009900;
+		  	padding-left: 15px;
+		  	border:none;
+		}
+		
+		
+		
+		.titulo_seccion{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:12px;
+			font-weight:bold;
+			color:#333333;
+			text-align:justify;
+			border-bottom:#009900 solid 1px;
+		}
+		
+		.tabla_consulta{
+			margin-top:5px;
+			width:100%;
+			border:#009900 solid 1px;
+		}
+		.tabla_consulta .titulo{
+			background:#cccccc;
+			color:#333333;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:12px;
+			text-align:center;
+			border-bottom:#009900 solid 1px;
+		}
+		.tabla_consulta .datos{
+			background:#ffffff;
+			color:#333333;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:10px;
+			font-weight:normal;
+			text-align:center;
+		}
+		.tabla_consulta .datos:hover{
+			background:#99FF66;
+		}
+		
+		select, option{
+			color:333333;
+			background:#F9F9F9;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:10px;
+			border:#CCCCCC solid 1px;
+		}
+		
+		iframe.fotos{
+			background:#ffffff;
+			border:none;
+			width:100%;
+			height:100px;
+		}
