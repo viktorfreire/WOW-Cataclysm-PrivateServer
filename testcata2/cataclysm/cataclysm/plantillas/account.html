@@ -1,0 +1,12 @@
+{% if usuario.username %}
+	<figure class="avatar"><img src="{{STATIC_URL}}imagenes/avatars/1.jpg" alt="Desconocido"></figure>                    
+   	<header class="shaman">shaman</header>
+   	<span></span>
+   	<p>No tiene Mensajes</p>
+{% else %}
+	<figure class="avatar"><img src="{{STATIC_URL}}imagenes/avatars/0.jpg" alt="Desconocido"></figure>                    
+   	<header class=""></header>
+   	<span></span>
+   	<p>Inicia sesión para mejorar tu experiencia!</p>
+{% endif %} 
+			    

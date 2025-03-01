@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Cache-Control" content ="no-cache">
+	<meta name="google-site-verification" content="n-RadkNV7jQoWajDl5Jis0x_YZfrpzNyVnfQ9-k2KNY" />
+	<meta name="verify-iw" content="IW1021813190060706" />
+	<meta name="distribution" content="Global">
+	<meta name="generator" content="Aptana && Python 2.7" />
+	<meta name="DC.Language" content="es_ES" />
+	<meta name="DC.Publisher" content="INGENIERO VICTOR FREIRE - Contacto: +351918680251, freire.victormanuel@gmail.com" />
+	<meta name="DC.Creator" content="INGENIERO VICTOR FREIRE - Contacto: +351918680251, freire.victormanuel@gmail.com" />
+	<meta name="robots" content="index,follow"  />
+	<meta name="description" content="::: TESTCATA 4.2.2 :::" />
+	<META name="keywords" content="TESTCATA, WOW, Cataclysm, World of Warcraft, Victor Manuel Freire Parada, Darwin Frique, Valencia, Venezuela, Portugal, Aveiro, Games, Gamers, Juegos, On-line, Video Juegos">
+	<meta name="DC.Title" content="TESTCATA 4.2.2" />
+	<meta name="Copyright" content="2012-2015 Ing. Victor Manuel Freire Parada. Todos los Derechos Reservados.">
+	<link rel="shortcut icon" href="{{STATIC_URL}}imagenes/mano.jpg" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/styles.css">
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/forum.css">
+    <title>TESTCATA 4.2.2 - {% block titulo %}{% endblock %}</title>
+	<style>
+		{% block style_css %}{% endblock %}
+			@font-face {
+	
+			font-family: "wow";
+			src: url("{{STATIC_URL}}tipo_fuentes/b_wrath.ttf") format("truetype");
+	
+		}
+		.titulo_wow{
+			font-family:wow;
+			font-size:14px;
+			font-weight:bold;
+			color:#333;
+			padding-top:10px;
+		}
+	</style>
+	<!--[if IE 7]>
+    	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/jquery/ie7Fixes.css" />
+    <![endif]-->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oxygen|Pontano+Sans|Codystar|Frijole">
+        
+    <!--[if lt IE 9]>
+    	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>var STATIC_URL = "{{ STATIC_URL }}";</script>
+    <script src="{{STATIC_URL}}js/head.js"></script>
+    <script src="{{STATIC_URL}}js/head.loader.js"></script>
+</head>
+<body>
+	<header class="top">
+    	<img src="{{STATIC_URL}}imagenes/layout/logo_testcata.png" width="300">
+    </header>
+    <div id="site">
+    	<section id="top">
+    		<nav class="AGS_Menu">
+		    	<ul>
+		        	<li><a href="/">Inicio</a></li>
+		        	<li><a href="/Armeria">Armeria</a></li> 
+		        	<li><a href="/Donaciones">Donaciones</a></li>
+		        	<li><a href="/Foros">Foros</a></li> 
+		            <li><a href="/Juego">Juego</a></li>   
+		            <li><a href="/Medios">Medios</a>
+		               	<ul> 
+		               		<li data-icon="red"><a href="#">Add-On's</a></li>                    
+		                	<li data-icon="green"><a href="magnet:?xt=urn:btih:99a9885675e06f1f677ca93be43f475284bb0f0b&amp;dn=WOW+Cataclysm+4.0.6+%28Espa%26ntilde%3Bol%29&amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&amp;tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&amp;tr=udp%3A%2F%2Ftracker.istole.it%3A6969&amp;tr=udp%3A%2F%2Ftracker.ccc.de%3A80">Cliente 4.2.2</a></li>                    
+		                    <li data-icon="green"><a href="http://www.raidcall.com/download/raidcall_v7.1.0.exe">Raidcall</a></li>     
+		                    <li data-icon="red"><a href="#">Wallpappers</a></li>   
+		              	</ul>
+		           	</li>
+		            <li><a href="/Staff">Staff</a></li>
+		      	</ul>
+		  	</nav>
+    		<section id="account">
+    			{% include 'account.html' %}
+    		</section>
+    		<section id="account_content">
+    			{% include 'account-content.html' %}
+    		</section>
+    		
+		</section>    		
+		<section id="content" class="grid">
+			{% block scripts %}{% endblock %}
+			{% block content %}{% endblock %}
+			{% block sidebars %}{% endblock %}
+		</section>
+        <footer>
+        	<div align="center" class="titulo_wow">
+            	<a target="_new" href="http://www.python.org/" title="Python"><img src="{{STATIC_URL}}imagenes/layout/footer_mid_p.png"></a>
+            	&nbsp;&nbsp;
+            	<a target="_new" href="http://www.facebook.com/testcata" title="Facebook"><img src="{{STATIC_URL}}imagenes/layout/logo_facebook.png"></a>
+          	</div>
+        </footer>
+	</div> 
+</body>
+</html>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37250194-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>

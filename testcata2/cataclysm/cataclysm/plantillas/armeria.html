@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block titulo %}
+	Armeria
+{% endblock %}
+{% block scripts %}
+	<script>
+		head(function(){								
+			$.AGS_Wow.getItemByName('iceblade arrow');		
+		});				
+	</script>
+{% endblock %}
+{% block content %}
+	<section id="news">                
+    	<article class="newspost" id="post_1">
+        	<header class="red panda">
+            	<h2>¿Qué es la Armería?</h2>
+          	</header>
+            <section class="post-content">
+            	<p>
+            		La Armería es una gran base de datos con información sobre World of Warcraft, 
+                    recopilada directamente de los reinos, actualizada en tiempo real y presentada en una simple interfaz de usuario. 
+                </p>
+                <p>    
+                   	El hecho de que se tomen los datos directamente de los reinos de juego hace que esta sea la mayor base de datos y la más actualizada que existe sobre personajes, 
+                    equipos de Arenas, hermandades y objetos World of Warcraft.
+            	</p>
+         	</section>
+         	<header class="red dragon">
+            	<h2>¿Qué puedo buscar en la Armería?</h2>
+          	</header>
+            <section class="post-content">
+            	<p>
+					En la Armería puedes buscar personajes, objetos, hermandades, equipos de Arenas y recompensas de facción. 
+               </p>
+               <p>
+                    En el momento de hacer una búsqueda puedes elegir cualquiera de los anteriores filtros.
+				</p>
+         	</section>
+		</article>       
+	</section>
+{% endblock %}
+{% block sidebars %}
+	{% include 'sidebars.html' %}
+{% endblock %}

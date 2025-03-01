@@ -1,0 +1,19 @@
+<aside id="sidebars">
+   	<section id="sb_2" class="forumposts">
+   		{% include 'forumposts.html' %}
+   	</section>
+   	
+   	<section id="sb_1" class="shoutbox">
+		{% if session == 'SI'%}
+			{% include 'shoutbox.html' %}	     
+		{% endif %}
+	</section>
+                                   
+    <section id="sb_3" class="recruitment">
+    	{% include 'recruitment.html' %}
+    </section>
+                    
+    <section id="sb_4" class="progress">
+    	{% include 'progress.html' %}
+    </section>                                    
+</aside>

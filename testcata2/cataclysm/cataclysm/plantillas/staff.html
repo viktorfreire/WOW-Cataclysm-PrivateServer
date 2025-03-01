@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block titulo %}
+	Staff
+{% endblock %}
+{% block scripts %}
+	<script>
+		head(function(){								
+			$.AGS_Wow.getItemByName('iceblade arrow');		
+		});				
+	</script>
+{% endblock %}
+{% block content %}
+	<section id="news">                
+    	<article class="newspost" id="post_1">
+        	<header class="green folks">
+            	<h2>Nuestros Fundadores "GM"</h2>
+          	</header>
+            <section class="post-content">
+            	<p>
+            		Nuestros gloriosos administradores, que dia a dia trabajan en la construcción de nuestra comunidad son: 
+                </p>
+                <ul>    
+                   	<li>Zerone - DK Tank</li>
+					<li>Skywalkerh - Trol Druida</li>
+            	</ul>
+         	</section>
+         	<header class="green folks">
+            	<h2>Nuestros Moderadores</h2>
+          	</header>
+            <section class="post-content">
+            	<p>
+					Aquellos que arduamente preservan el orden dentro de nuestra comunidad son: 
+               </p>
+               <ul>
+                    <li>Rocolococo - Druida DPS</li>
+                    <li>Galaxia - Paladin Tank</li>
+                    <li>Moonrise - Paladin Heal</li>
+                    <li>Skrilleado - Guerrero Tank</li>
+				</ul>
+         	</section>
+		</article>       
+	</section>
+{% endblock %}
+{% block sidebars %}
+	{% include 'sidebars.html' %}
+{% endblock %}

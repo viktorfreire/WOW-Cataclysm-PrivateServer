@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block titulo %}
+	Registro
+{% endblock %}
+
+
+{% block content %}
+    <section class="grid12 first">
+		<header class="red mage">
+        	<h2>Registro</h2>
+        </header>
+        <div>
+            <form id="AGS_Form" name="AGS_Form" class="AGS_Form" action="." enctype='multipart/form-data' method="POST" novalidate>
+            	<input type="hidden" name="what" value="printpost">
+                {% csrf_token %}
+                <fieldset>
+                    <label>Datos Personales<span>Cuentanos sobre ti!</span></label>
+                    <section>
+                        <label for="nombres">Nombres</label>
+                        <div>
+                        	{{ AGS_Form.first_name }}
+                        	{{ AGS_Form.first_name.errors }}
+                        </div>
+                    </section>
+                    <section>
+                        <label for="apellidos">Apellidos</label>
+                        <div>
+                        	{{ AGS_Form.last_name }}
+                        	{{ AGS_Form.last_name.errors }}
+                        </div>
+                    </section>
+                    <section>
+                        <label for="date_bourne">Fecha de Nacimiento<span>Introduce la fecha real, es util para nuestra web!</span></label>
+                        <div>
+                        	{{ AGS_Form.date_bourne }}
+                        	{{ AGS_Form.date_bourne.errors }}
+                        </div>  
+                    </section>
+                    <section>
+                        <label for="sexo">Sexo<span>Puedes elegir con el que mejor te identifiques, ó el que realmente te pertenece!</span></label>
+                        <div>
+                        	{{ AGS_Form.sexo }}
+                        	{{ AGS_Form.sexo.errors }}
+                        </div>  
+                    </section>
+                    <section>
+                        <label for="skype">Skype <span>Introduce tu usuario de Skype</span></label>
+                        <div>
+                        	{{ AGS_Form.skype }}
+                        	{{ AGS_Form.skype.errors }}
+                        </div>
+                    </section>
+                 </fieldset>
+                 <fieldset>
+                    <label>Autentificación<span>Los datos que introduzcas deben ser reales.</span></label>
+                    <section>
+                        <label for="username">Usuario</label>
+                        <div>
+                        	{{AGS_Form.username}}
+                        	{{ AGS_Form.username.errors }}
+                        </div> 
+                    </section>  
+                    <section>
+                        <label for="sha_pass_hash">Contraseña</label>
+                        <div>
+                        	{{AGS_Form.password}}
+                        	{{ AGS_Form.password.errors }}
+                        </div> 
+                    </section>  
+                    <section>
+                        <label for="email">Email</label>
+                        <div>
+                        	{{AGS_Form.email}}
+                        	{{ AGS_Form.email.errors }}
+                        </div>
+                    </section>
+          		</fieldset>
+                <fieldset>
+                    <section>
+                        <div><button type="submit" class="agsButton">Registrar</button></div>  
+                    </section>
+                </fieldset>	
+            </form>   
+        </div>
+	</section><br>
+{% endblock %}

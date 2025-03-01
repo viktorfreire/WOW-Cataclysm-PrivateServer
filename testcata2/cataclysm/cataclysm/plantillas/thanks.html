@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block titulo %}
+	Registro Exitoso
+{% endblock %}
+
+{% block scripts %}
+	<script>
+		head(function(){								
+			$.AGS_Wow.getItemByName('iceblade arrow');		
+		});				
+	</script>
+{% endblock %}
+{% block content %}
+	<section id="news">
+		<article class="newspost" id="post_1">
+	        	<header class="red panda">
+	            	<h2>Registro Exitoso</h2>
+	          	</header>
+	            <section class="post-content">
+	            	<div align="center">
+					<p>Les damos la bienvenida a nuestra comunidad TestCata.</p>
+					<p>Gracias por registrarse en nuestro servidor.</p>
+					<p>
+						<img src='{{STATIC_URL}}imagenes/thanks.jpg' width="350" />
+					</p>
+					<h4>Realm-list:</h4>
+					<ul>
+						<li><strong>set realmlist</strong> testcata.servegame.com</li>
+						<li><strong>set patchlist</strong> testcata.servegame.com</li>
+					</ul>
+					</div>
+				</section>
+		</article>
+	</section>
+{% endblock %}
+{% block sidebars %}
+	{% include 'sidebars.html' %}
+{% endblock %}

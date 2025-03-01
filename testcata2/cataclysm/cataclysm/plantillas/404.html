@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block titulo %}404{% endblock %}
+{% block scripts %}
+	<script>
+		head(function(){								
+			$.AGS_Wow.getItemByName('iceblade arrow');		
+		});				
+	</script>
+{% endblock %}
+{% block content %}
+	<section id="news">
+		<article class="newspost" id="post_1">
+	        	<header class="red panda">
+	            	<h2>Error 404</h2>
+	          	</header>
+	            <section class="post-content">
+	            	<div align="center">
+					<p>Lo sentimos no encontramos lo que esta buscando</p>
+					<p>
+						<img src='{{STATIC_URL}}imagenes/kernel.jpg' />
+					</p>
+					</div>
+				</section>
+		</article>
+	</section>
+{% endblock %}
+{% block sidebars %}
+	{% include 'sidebars.html' %}
+{% endblock %}

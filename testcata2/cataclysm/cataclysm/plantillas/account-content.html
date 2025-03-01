@@ -1,0 +1,31 @@
+{% if usuario.username %}
+				<section class="raid">
+			    	<img src="{{STATIC_URL}}imagenes/raids/icons/ds.png" alt="Blackwing Descent">                        
+			        <p><a href="#">Dragon Soul</a></p>
+			        <p>2 hours, 3 minutes</p>
+			        <p><span class="not_signed">Not signed</span> - <a href="#">Registrarse</a></p>
+				</section> 
+				<section class="account">
+			       	<ul>
+			          	<li><span class="home"></span> <a href="/">Inicio</a></li>
+			           	<li><span class="applications"></span> <a href="#">Your applications</a></li>
+			           	<li><span class="messages"></span> <a href="#">Messages</a></li>
+			            <li><span class="characters"></span> <a href="#">Characters</a></li>
+			            <li><span class="filemanager"></span> <a href="#">Upload(s)</a></li> 
+			            <li><span class="settings"></span> <a href="#">Settings</a></li>  
+			            <li><span class="exit"></span><a href='/cerrar'>Salir</a></li>                                                     
+			    	</ul>
+				</section>
+{% else %}
+				<section class="login">
+			       	<form class="login" action="/Ingresar" method="POST" enctype='multipart/form-data' id="Login_Form" name="Login_Form" >
+			           	<label for="usuario">Usuario:</label><br>
+			    	    <input type="text" name="usuario" id="usuario"><br>
+			            <br>
+			            <label for="password">Password:</label><br>
+			            <input type="password" name="password" id="password"><br>
+			            <br>
+			            <button class="button1" type="submit"><span>Entrar</span></button> <button class="button1" type="button"><a href="/Registro"><span>Registrarse</span></a></button>                          
+			   		</form>
+				</section>
+{% endif %}

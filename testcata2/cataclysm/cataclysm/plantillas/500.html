@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block titulo %}500{% endblock %}
+{% block scripts %}
+	<script>
+		head(function(){								
+			$.AGS_Wow.getItemByName('iceblade arrow');		
+		});				
+	</script>
+{% endblock %}
+{% block content %}
+	<section id="news">
+		<article class="newspost" id="post_1">
+	        	<header class="red panda">
+	            	<h2>Error 500</h2>
+	          	</header>
+	            <section class="post-content">
+	            	<div align="center">
+					<p>Lo sentimos nuestro servidor se quedo dormido, hacemos todos los esfuerzos por despertarlo</p>
+					<p>
+						<img src='{{STATIC_URL}}imagenes/leono.jpg' />
+					</p>
+					</div>
+				</section>
+		</article>
+	</section>
+{% endblock %}
+{% block sidebars %}
+	{% include 'sidebars.html' %}
+{% endblock %}
