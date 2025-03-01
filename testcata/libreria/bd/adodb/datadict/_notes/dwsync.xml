@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="datadict-access.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/sistema_administrativo_integral/" local="129265370880000000" remote="129278600940000000" />
+<file name="datadict-db2.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/sistema_administrativo_integral/" local="129265370900000000" remote="129278600950000000" />
+<file name="datadict-firebird.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/sistema_administrativo_integral/" local="129265370920000000" remote="129278600960000000" />
+<file name="datadict-generic.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/sistema_administrativo_integral/" local="129265370960000000" remote="129278600980000000" />
+<file name="datadict-ibase.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/sistema_administrativo_integral/" local="129265370980000000" remote="129278600990000000" />
+<file name="datadict-informix.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/sistema_administrativo_integral/" local="129265371020000000" remote="129278601000000000" />
+<file name="datadict-mssql.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/sistema_administrativo_integral/" local="129265371060000000" remote="129278601020000000" />
+<file name="datadict-mysql.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/sistema_administrativo_integral/" local="129265371080000000" remote="129278601030000000" />
+<file name="datadict-oci8.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/sistema_administrativo_integral/" local="129265371100000000" remote="129278601030000000" />
+<file name="datadict-postgres.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/sistema_administrativo_integral/" local="129265371120000000" remote="129278601040000000" />
+<file name="datadict-sapdb.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/sistema_administrativo_integral/" local="129265371140000000" remote="129278601040000000" />
+<file name="datadict-sybase.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/sistema_administrativo_integral/" local="129265371160000000" remote="129278601050000000" />
+<file name="datadict-access.inc.php" server="vwdsistemas.zapto.org/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129300164890000000" />
+<file name="datadict-db2.inc.php" server="vwdsistemas.zapto.org/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129300164890000000" />
+<file name="datadict-firebird.inc.php" server="vwdsistemas.zapto.org/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129300164890000000" />
+<file name="datadict-generic.inc.php" server="vwdsistemas.zapto.org/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129300164890000000" />
+<file name="datadict-ibase.inc.php" server="vwdsistemas.zapto.org/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129300164890000000" />
+<file name="datadict-informix.inc.php" server="vwdsistemas.zapto.org/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129300164890000000" />
+<file name="datadict-mssql.inc.php" server="vwdsistemas.zapto.org/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129300164890000000" />
+<file name="datadict-mysql.inc.php" server="vwdsistemas.zapto.org/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129300164890000000" />
+<file name="datadict-oci8.inc.php" server="vwdsistemas.zapto.org/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129300164890000000" />
+<file name="datadict-postgres.inc.php" server="vwdsistemas.zapto.org/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129300164890000000" />
+<file name="datadict-sapdb.inc.php" server="vwdsistemas.zapto.org/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129300164890000000" />
+<file name="datadict-sybase.inc.php" server="vwdsistemas.zapto.org/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129300164890000000" />
+<file name="datadict-access.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129312882010000000" />
+<file name="datadict-db2.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129312882010000000" />
+<file name="datadict-firebird.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129312882010000000" />
+<file name="datadict-generic.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129312882010000000" />
+<file name="datadict-ibase.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129312882010000000" />
+<file name="datadict-informix.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129312882010000000" />
+<file name="datadict-mssql.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129312882010000000" />
+<file name="datadict-mysql.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129312882010000000" />
+<file name="datadict-oci8.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129312882010000000" />
+<file name="datadict-postgres.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129312882010000000" />
+<file name="datadict-sapdb.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129312882010000000" />
+<file name="datadict-sybase.inc.php" server="vwdsistemas.zapto.org//home/vfreire/Paginas Web/proyectos/idse/" local="129288205080000000" remote="129312882010000000" />
+</dwsync>
