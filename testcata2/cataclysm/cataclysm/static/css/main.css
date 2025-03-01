@@ -1,0 +1,130 @@
+/***********************************
+************************************
+			AGS Template
+			   Style
+************************************
+***********************************/
+
+/***********************************
+			Elements
+***********************************/ 
+body {  
+    margin: 0 auto;  
+    width: 950px;
+	color:#FFFFFF;
+    font: 13px/22px 'Oxygen', Century Gothic, sans-serif;  
+    background: url("../imagenes/layout/bg.jpg") no-repeat top center fixed #000;
+}  
+
+h2 {  
+    font-size: 28px;
+	font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+	font-weight:normal;
+}  
+a{
+	color:#FF6600;
+	text-decoration:none;
+}
+a:hover{ color:#CCCCCC; }
+p{  }
+ 
+.deathknight{  	color:#C41F3B; }
+.druid{			color:#FF7D0A; }
+.hunter{		color:#ABD473; }
+.mage{ 			color:#69CCF0; }
+.monk{ 			color:#558A84; }
+.paladin{		color:#F58CBA; }
+.priest{		color:#FFFFFF; }
+.rogue{			color:#FFF569; }
+.shaman{ 		color:#0070DE; }
+.warlock{ 		color:#9482C9; }
+.warrior{		color:#C79C6E; }
+
+header.blue{background-color: #1C274A}
+header.red{background-color: #951E01}
+header.green{background-color: #003300}
+.clear{
+	clear:both;
+}
+
+figure.avatar{
+	float:left;
+	height:52px;
+	width:52px;
+	background:url("../imagenes/layout/account_avatar_bg.png") no-repeat top left;
+	margin:4px 10px 0 10px;	
+}
+figure.avatar img{
+	height:37px;
+	width:37px;
+	margin:7px 0px 0px 7px;	
+}
+
+.center{
+	text-align:center;
+}
+
+
+
+
+/***********************************
+			Icons
+***********************************/
+.icon{
+	height:40px;
+	width:40px;
+	
+	background:url("../imagenes/icons.png");
+}
+.iconlink{ display:inline-block; cursor:pointer; }
+.i-accept{
+	background-position:-250px 0px;
+}
+.i-cross{
+	background-position:-212px 0px;
+}
+
+/***********************************
+			Buttons
+**********************************/
+.button1{
+	display:inline-block;
+	background:url("../imagenes/buttons/1l.png") no-repeat,
+			   url("../imagenes/buttons/1m.png") repeat-x,
+			   url("../imagenes/buttons/1r.png") no-repeat right;		    
+	background-clip:padding-box, content-box, padding-box;
+	background-origin:padding-box, content-box, padding-box;
+	background-position:left, center, right;
+	padding-left:7px;
+	padding-right:7px;
+	height:31px;
+	margin:2px;
+	cursor:pointer;
+}
+
+.button1:hover{
+	background:url("../imagenes/buttons/1l_hover.png") no-repeat,
+			   url("../imagenes/buttons/1m_hover.png") repeat-x,
+			   url("../imagenes/buttons/1r_hover.png") no-repeat;
+	background-clip:padding-box, content-box, padding-box;
+	background-origin:padding-box, content-box, padding-box;
+	background-position:left, center, right;		   
+}
+
+.button1 span{
+	padding:0px 5px;
+	line-height:28px;
+	color:#CCCCCC;
+	font-size:12px;
+}
+.button1:hover span{
+	color:#999999;
+}
+
+
+
+
+
+
+
+

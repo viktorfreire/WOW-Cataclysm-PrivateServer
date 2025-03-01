@@ -1,0 +1,310 @@
+
+/***********************************
+			Forms
+***********************************/
+input,
+textarea{
+	width:90%;
+	background: url("../imagenes/layout/trans4.png");
+	padding:3px;
+	color:#CCC;
+	margin:10px 6px 1px 1px;
+	font-size:12px;
+	font: 13px/22px 'Oxygen', Century Gothic, sans-serif;
+	
+	
+	border:1px solid #666;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+
+	
+	
+	-webkit-box-shadow: 2px 0px 3px ;
+	-moz-box-shadow: 2px 0px 3px ;
+	box-shadow: 2px 0px 3px ; 
+	
+	-webkit-box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.5); 
+}
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover{
+	border:1px solid #999;
+ 
+}
+
+form.AGS_Form{
+	width:100%;
+	min-width:300px;	
+}
+form.AGS_Form > fieldset{
+	width:100%;
+	display:table;
+	
+	background: url("../imagenes/layout/trans1.png");
+
+}
+form.AGS_Form > fieldset:first-child{
+	margin:0;
+}
+form.AGS_Form > fieldset > label{
+	width:100%;
+	height:40px;
+	display:block;
+	text-indent:20px;
+	padding:5px 0px;
+	font-size:16px;
+	background: url("../imagenes/sidebars/forumpost_bg.png");
+	vertical-align:middle;
+	margin-bottom:1px;
+	font-weight:bold;
+}
+form.AGS_Form > fieldset > label span{
+	display:block;
+	font-size:10px;
+	font-weight:normal;
+}
+form.AGS_Form > fieldset > section{
+	display:table;
+	width:inherit;
+
+	margin-bottom:1px;
+}
+form.AGS_Form > fieldset > section > label{
+	vertical-align:top;
+	display:table-cell;
+
+	height:auto;
+	text-indent:10px;
+	font-size:13px;
+	width:30%;
+	background: url("../imagenes/layout/trans3.png");
+	padding:15px 10px 5px 10px;
+}
+form.AGS_Form > fieldset > section label span{
+	display:block;
+	font-size:10px;
+	text-indent:0;
+	margin-left:10px;
+	color:#999999;
+}
+form.AGS_Form > fieldset > section > div{
+	background: url("../imagenes/layout/trans4.png");
+	display:table-cell;
+	
+	height:auto;
+	
+	width:70%;
+	padding:15px 20px 20px 20px;
+}
+
+form.AGS_Form input{
+	height:25px;
+	
+}
+
+form.AGS_Form input[type=password],
+form.AGS_Form input[type=realm]{
+	max-width:200px;	
+}
+form.AGS_Form input[type=email]{
+	max-width:300px;
+}
+form.AGS_Form input[type=date]{
+	max-width:100px;
+	text-align:center;	
+}
+form.AGS_Form textarea{
+	height:200px;
+	resize:vertical; 
+	
+}
+form.AGS_Form div.password-status{
+	display:block;
+	text-align:center;
+	line-height:55px;
+	height:50px;
+	border:#666666 1px solid;
+	margin-top:7px;
+}
+form.AGS_Form > fieldset > section input[type=password]:nth-child(2){
+	border:1px solid #090;
+}
+form.AGS_Form label.error{
+	color:#FF0000;
+	display:block;
+	margin:15px 0px;
+}
+.AGS_Form .bbcodeBox{
+	display:block;
+	height:auto;
+	width:70px;
+	background:#333;
+	margin:0px 0 10px 20px;
+	overflow:hidden;
+
+	border:1px solid #666;
+	border-bottom:none;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px; 
+	
+	-webkit-box-shadow: 2px 0px 3px ;
+	-moz-box-shadow: 2px 0px 3px ;
+	box-shadow: 2px 0px 3px ; 
+	
+	-webkit-box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.5); 		
+}
+.AGS_Form .bbcodeBox .bbcodeButton{
+	height:15px;
+	width:auto;
+	min-width:15px;
+	border:1px solid #666;
+	float:left;
+	margin:5px;
+	text-align:center;
+	padding:2px 4px 2px 4px;
+	line-height:15px;
+	
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	cursor:pointer;
+	
+}
+.AGS_Form .bbcodeBox .bbcodeButton:hover{
+	border:1px solid #999;
+}
+.AGS_Form .smileyBox{
+	display:block;
+	height:22px;
+	width:70px;
+	background:#333;
+	margin:0px 0 10px 20px;
+	overflow:hidden;
+
+	border:1px solid #666;
+	border-top:none;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px; 
+	
+	-webkit-box-shadow: 2px 0px 3px ;
+	-moz-box-shadow: 2px 0px 3px ;
+	box-shadow: 2px 0px 3px ; 
+	
+	-webkit-box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.5); 		
+}
+.AGS_Form .smileyBox:hover{
+	border-color:#999999;	
+}
+.AGS_Form .smileyBox .smileyHandle{
+	height:22px;
+	width:70px;
+	text-indent:12px;
+	
+	cursor:pointer;
+	
+	
+	
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px; 
+}
+.AGS_Form .smileyBox .smileys{
+	display:block; 
+ float:left;
+ overflow:hidden;
+ height:80px;
+ position:relative;
+ 
+ }
+.AGS_Form .smileyBox .conveyor{
+	 position:relative;
+}
+.AGS_Form .smileyBox .smileyContainer{ 
+ display:table-cell; 
+ width:80px;
+ 
+ height:80px;
+
+text-align:center;
+margin:0px 2px 0px 2px;
+-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+	cursor:pointer;
+
+}
+.AGS_Form .smileyBox .smileyContainer:hover{
+	background:url("../imagenes/layout/trans4.png") repeat;
+}
+.AGS_Form .smileyBox .smileyContainer img{ max-width:40px; max-height:40px;  display:block; margin:10px auto; }
+.AGS_Form .smileyBox .smileyContainer fcaption{ height:20px; width:inherit; display:block; border-bottom:1px dashed #666;  }
+
+.AGS_Form .smileyBox .slider{
+
+	clear:both;
+	width:90%;
+	margin:2px auto;
+}
+
+
+
+
+
+
+
+/* FANCY CAPTCHA STARTS */
+.ajax-fc-container { width: 316px; background:#a8d7ea;  color:#fff;  margin:15px 0 0; }
+
+/* rounded corners */
+.ajax-fc-rtop, .ajax-fc-rbottom{ display:block; background: white; }
+.ajax-fc-rtop *, .ajax-fc-rbottom *{ display: block; height: 1px; overflow: hidden; background:#a8d7ea; }
+
+/* describes left and right boxes */
+div#ajax-fc-content { position: absolute; margin-top: -3px; margin-left: 9px; width: 298px; height: 105px;  }
+div#ajax-fc-content div#ajax-fc-left { width: 200px; height: 100px; float: left; }
+
+div#ajax-fc-content div#ajax-fc-right { width: 98px; height: 100px; float: right; }
+
+/* block left: task and pictures */
+p#ajax-fc-task { line-height: 16px; margin: 0; padding: 11px 0 0 11px; font-size: 10px; font-family: Verdana, Tahoma, Arial; color: #CCC; }
+p#ajax-fc-task span { color: #FFF; font-weight: bold; }
+
+ul#ajax-fc-task { width: 190px; height: 18px; list-style-type: none;  background-repeat: no-repeat; margin: 6px 0 0 0; padding: 5px 0 0 2px; }
+
+/* block right: cycle and backlink */
+ul#ajax-fc-task li { float: left; margin-right: 1px; margin-top: 6px;}
+p#ajax-fc-circle { position: absolute; margin: 18px 0 0 15px; width: 79px; height: 79px; background: url(../imagenes/jquery/captcha/circle.png); background-repeat: no-repeat; }
+img#ajax-fc-backlink { position: absolute; margin-top: 1px; margin-left: 6px; border: 0px; z-index: 101; display:none; }
+
+/* left and right png borders */
+div#ajax-fc-corner-spacer { height: 99px; }
+img.ajax-fc-border { position: absolute; margin-top: -3px; display:none; }
+img.ajax-fc-border#ajax-fc-left { margin-left: 2px; }
+img.ajax-fc-border#ajax-fc-right { margin-left: 307px; }
+
+/* items */
+.ajax-fc-highlighted { cursor: pointer; z-index: 102}
+
+/* rounded corners */
+.ajax-fc-r1{  display:none;margin: 0 5px } .ajax-fc-r2{ display:none; margin: 0 3px } .ajax-fc-r3{ display:none; margin: 0 2px } .ajax-fc-r4{  display:none;margin: 0 1px; height: 2px }
+
+/* FANCY CAPTCHA ENDS */
+

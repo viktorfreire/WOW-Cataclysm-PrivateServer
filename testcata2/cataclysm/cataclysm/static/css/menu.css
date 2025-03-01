@@ -1,0 +1,167 @@
+	/* Top menu */
+	.AGS_Menu{
+			font-family: 'Pontano Sans', sans-serif;
+		width:753px; 
+		display:table-cell;
+	}
+	
+	.AGS_Menu > ul {	height:55px; position:relative; }
+	.AGS_Menu > ul > li {
+		z-index:300;
+		float:left;
+			padding:0px 20px;
+	text-align:center;
+	background: url("../imagenes/layout/menu_spacer.png") no-repeat right;
+		
+	}
+	.AGS_Menu > ul li:hover{
+		position:relative;	
+	}
+	.AGS_Menu > ul > li > a{
+	display:block;
+	
+	margin:15px 0;
+	font-size:15px;
+	letter-spacing:2px;
+	color:#FFF;
+	}
+	.AGS_Menu > ul > li ul li{
+		display:block;
+		min-height:30px;
+		line-height:30px;
+		border-left:5px solid #A43E25;
+		border-right:5px solid #A43E25;
+		background:#333;
+		text-align:left;
+		}
+	
+	/* Menu container     #333*/
+	.AGS_Menu div, 
+	.AGS_Menu > ul > li ul:not(.col){
+		display:none;
+		
+		position:absolute;
+		min-width:200px;
+		width:auto;
+		top: 100%; left: 25%;
+		background:url('../imagenes/menu/top.png') no-repeat left top;
+		background-origin:padding-box;
+		background-clip:padding-box;
+		background-position:10px 0px;
+		padding-top:30px;
+	}
+	.AGS_Menu > ul > li li:first-child{
+		border-top:5px solid #A43E25;
+	}
+	.AGS_Menu > ul > li li:last-child{
+		border-bottom:5px solid #A43E25;
+	}
+	.AGS_Menu > ul > li li a{
+		display:block;
+		padding-left:30px;
+		color:#FFF;	
+		min-height:28px;	
+		border-top:1px solid #424242;
+		border-bottom: 1px solid #1F1F1F;
+	}
+	
+	.AGS_Menu > ul > li li:first-child a{
+		border-top:none;
+		
+		height:29px;
+	}
+	.AGS_Menu > ul > li li:last-child a{
+		border-bottom:none;
+	}
+	.AGS_Menu > ul > li li a:hover{
+		background:url('../imagenes/menu/hover.png') repeat-x;
+	}
+	
+	.AGS_Menu div, 
+	.AGS_Menu > ul > li > ul ul:not(.col){
+		position:absolute;
+		left:100%;	
+		top:-75%;
+		display:none;
+		
+		background:url('../imagenes/menu/left.png') no-repeat;
+		background-origin:padding-box;
+		background-clip:padding-box;
+		background-position:10px 40px;
+		padding-left:35px;		
+		
+	}
+	.AGS_Menu > ul > li li:hover{
+		position:relative;	
+	}
+	
+	.AGS_Menu ul.col{
+		float:left;
+		display:block;
+		min-width:100px;
+	}
+	.AGS_Menu ul.col li{
+		border:none;
+	}
+	.AGS_Menu ul.col:first-child li{
+		border-left:5px solid #A43E25;
+	}
+	.AGS_Menu ul.col:last-child li{
+		border-right:5px solid #A43E25;
+	}
+	/* icons */
+	.AGS_Menu li[data-icon]{
+		background: no-repeat left center #333;
+		background-position: 7px 7px;
+	}
+	.AGS_Menu li.sub{
+		background: no-repeat #333;
+	}
+	.AGS_Menu span{
+		display:block;
+		padding:0px 5px 6px 0px;
+		line-height:13px;
+		
+		font-size:10px;
+		color:#CCC;	
+	}
+	.AGS_Menu li[data-icon="arrow"]{	background-image:url('../imagenes/menu/icons/arrow.png') }
+	.AGS_Menu li[data-icon="plus"]{	background-image:url('../imagenes/menu/icons/plus.png') }
+	.AGS_Menu li[data-icon="minus"]{	background-image:url('../imagenes/menu/icons/minus.png') }
+	.AGS_Menu li[data-icon="home"]{	background-image:url('../imagenes/menu/icons/home.png') }
+	.AGS_Menu li[data-icon="settings"]{	background-image:url('../imagenes/menu/icons/settings.png') }
+	.AGS_Menu li[data-icon="user"]{	background-image:url('../imagenes/menu/icons/user.png') }
+	.AGS_Menu li[data-icon="article"]{	background-image:url('../imagenes/menu/icons/article.png') }
+	.AGS_Menu li[data-icon="save"]{	background-image:url('../imagenes/menu/icons/save.png') }
+	.AGS_Menu li[data-icon="calendar"]{	background-image:url('../imagenes/menu/icons/calendar.png') }
+	.AGS_Menu li[data-icon="info"]{	background-image:url('../imagenes/menu/icons/info.png') }
+	.AGS_Menu li[data-icon="check"]{	background-image:url('../imagenes/menu/icons/check.png') }
+	.AGS_Menu li[data-icon="cancel"]{	background-image:url('../imagenes/menu/icons/cancel.png') }
+	.AGS_Menu li[data-icon="edit-user"]{	background-image:url('../imagenes/menu/icons/edit-user.png') }
+	.AGS_Menu li[data-icon="edit"]{	background-image:url('../imagenes/menu/icons/edit.png') }
+	.AGS_Menu li[data-icon="green"]{	background-image:url('../imagenes/menu/icons/green.png') }
+	.AGS_Menu li[data-icon="keys"]{	background-image:url('../imagenes/menu/icons/keys.png') }
+	.AGS_Menu li[data-icon="logout"]{	background-image:url('../imagenes/menu/icons/logout.png') }
+	.AGS_Menu li[data-icon="orange"]{	background-image:url('../imagenes/menu/icons/orange.png') }
+	.AGS_Menu li[data-icon="yellow"]{	background-image:url('../imagenes/menu/icons/yellow.png') }
+	.AGS_Menu li[data-icon="red"]{	background-image:url('../imagenes/menu/icons/red.png') }
+	.AGS_Menu li[data-icon="font"]{	background-image:url('../imagenes/menu/icons/font.png') }
+	.AGS_Menu li[data-icon="alert"]{	background-image:url('../imagenes/menu/icons/alert.png') }
+	.AGS_Menu li[data-icon="books"]{	background-image:url('../imagenes/menu/icons/books.png') }
+	.AGS_Menu li[data-icon="cancel"]{	background-image:url('../imagenes/menu/icons/cancel.png') }
+	.AGS_Menu li[data-icon="criple"]{	background-image:url('../imagenes/menu/icons/criple.png') }
+	.AGS_Menu li[data-icon="denied"]{	background-image:url('../imagenes/menu/icons/denied.png') }
+	.AGS_Menu li[data-icon="edit-user"]{	background-image:url('../imagenes/menu/icons/edit-user.png') }
+	.AGS_Menu li[data-icon="gamepad"]{	background-image:url('../imagenes/menu/icons/gamepad.png') }
+	.AGS_Menu li[data-icon="halt"]{	background-image:url('../imagenes/menu/icons/halt.png') }
+	.AGS_Menu li[data-icon="help"]{	background-image:url('../imagenes/menu/icons/help.png') }
+	.AGS_Menu li[data-icon="package"]{	background-image:url('../imagenes/menu/icons/package.png') }
+	.AGS_Menu li[data-icon="shield-check"]{	background-image:url('../imagenes/menu/icons/shield-check.png') }
+	.AGS_Menu li[data-icon="shield-cross"]{	background-image:url('../imagenes/menu/icons/shield-cross.png') }
+	.AGS_Menu li[data-icon="shield-question"]{	background-image:url('../imagenes/menu/icons/shield-question.png') }
+	.AGS_Menu li[data-icon="taskmanager"]{	background-image:url('../imagenes/menu/icons/taskmanager.png') }	
+	.AGS_Menu li[data-icon="users"]{	background-image:url('../imagenes/menu/icons/users.png') }	
+	.AGS_Menu li[data-icon="user-2"]{	background-image:url('../imagenes/menu/icons/user-2.png') }	
+	.AGS_Menu li[data-icon="grid"]{	background-image:url('../imagenes/menu/icons/grid.png') }
+	.AGS_Menu li[data-icon="bin"]{	background-image:url('../imagenes/menu/icons/bin.png') }
+	

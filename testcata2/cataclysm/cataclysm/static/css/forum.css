@@ -1,0 +1,173 @@
+/* CSS Document */
+#forum{
+	border-top:1px solid #666;
+}
+#forum > section > header h2{
+	text-align:left;
+	text-indent:20px;
+}
+
+#forum > section table{
+	width:100%;
+}
+#forum > section table tr td{
+		
+}
+
+#forum table tr th:nth-child(1){
+	width:460px;
+}
+#forum table tr th:nth-child(2){
+	width:60px;
+	text-align:center;
+}
+#forum table tr th:nth-child(3){
+	width:60px;
+	text-align:center;
+}
+#forum table tr th:nth-child(4){
+	width:300px;
+	text-align:left;
+	text-indent:20px;
+}
+
+#forum table tr td{
+	background:url("../imagenes/layout/trans4.png") repeat;
+	vertical-align:middle;
+	height:55px;
+	border-bottom:1px solid #333;
+	padding-top:5px;
+	
+}
+#forum table tr td:nth-child(1){
+	width:60px;
+	text-align:center;
+}
+#forum table tr td:nth-child(2){
+	width:400px;	
+}
+#forum table tr td:nth-child(2) > a{
+	display:block;
+	font-size:16px;
+	margin:-5px 0 -5px 0;
+}
+#forum table tr td:nth-child(2) > span{
+	font-size:11px;
+}
+#forum table tr td:nth-child(3){
+	width:60px;
+	text-align:center;
+}
+#forum table tr td:nth-child(4){
+	width:60px;
+	text-align:center;
+}
+#forum table tr td:nth-child(5){
+	width:300px;
+	text-indent:20px;
+}
+#forum table tr td:nth-child(5) > a{
+	display:block;
+	font-size:12px;
+	margin:-5px 0 -5px 0;
+}
+#forum table tr td:nth-child(5) > span{
+	display:block;
+	font-size:10px;
+}
+
+
+
+
+
+#topic{
+	margin-top:20px;	
+}
+
+#topic article{
+	overflow: hidden;
+	margin-bottom:2px;
+
+}
+#topic article > header{
+		float: left;
+	display: inline;
+	width:120px;
+	background:url(../imagenes/layout/trans1.png) repeat;
+	padding-top:10px;
+	min-height:200px;
+	
+	padding-bottom: 500em;
+	margin-bottom: -500em;
+
+	
+}
+#topic header > figure {
+	display:block;
+	width:100%;
+}
+#topic article hgroup{
+	display:block;	
+	text-align:center;
+}
+#topic article hgroup > h1{ font-size:14px; margin:0px 0px -5px 0px;	}
+#topic article hgroup > h2{ font-size:10px;color:#666; padding:0px 0px 0px 0px	}
+#topic article hgroup > h3{ font-size:13px; font-weight:normal; padding:10px 0px 0px 0px 	}
+
+
+#topic article > section{
+		float: left;
+	display: inline;
+	background:url(../imagenes/layout/trans4.png) repeat;
+	margin:0;
+	width:660px;
+	
+	      padding-bottom: 500em;
+      margin-bottom: -500em;
+
+}
+
+#topic article > footer{
+		background:url(../imagenes/layout/trans4.png) repeat;
+	margin:0;
+	width:700px;
+	display:block;
+clear: left;	
+}
+
+
+
+
+
+
+#topic figure.avatar{
+	height:97px;
+	width:98px;
+	background:url("../imagenes/layout/forum_avatar_bg.png") no-repeat top center;
+	margin:4px 10px 10px 12px;	
+}
+#topic figure.avatar img{
+	height:82px;
+	width:82px;
+	margin:8px 0px 0px 8px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

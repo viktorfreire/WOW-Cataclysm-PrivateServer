@@ -1,0 +1,347 @@
+/***********************************
+			Sidebars
+***********************************/
+#sidebars{
+	padding-top:20px;
+	display:table-cell;
+	vertical-align:top;
+	width:300px;
+	padding-left:40px;
+}
+#sidebars > section{
+	background:url("../imagenes/layout/trans3.png") repeat;
+	margin-bottom:10px;	
+	
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+	border-radius: 10px 0px 0px 10px;  	
+}
+#sidebars .highlight-drop{
+	height:54px;
+	width:300px;
+	background:url("../imagenes/layout/trans1.png") repeat;	
+}
+#sidebars > section > header{
+	height:54px;
+	width:300px;
+	cursor:move;
+	
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-radius: 10px 0px 0px 0px;
+	border-radius: 10px 0px 0px 0px; 
+	
+}
+#sidebars > section > header h2{ 
+	color:#CCC;
+	padding:15px 0 0 0px;
+	font-family: 'Frijole', sans-serif;
+	font-size:17px;
+	text-align:center
+}
+#sidebars > section > header p{
+	text-align:center;
+	font-size:9px;
+	margin-top:-3px;
+
+}
+
+#sidebars > section > header.dragon{ background-image: url("../imagenes/headers/overlay.png"), url("../imagenes/headers/sidebar_dragon.png");}
+#sidebars > section > header.folks{ background-image: url("../imagenes/headers/overlay.png"), url("../imagenes/headers/sidebar_folks.png");}
+#sidebars > section > header.panda{ background-image: url("../imagenes/headers/overlay.png"), url("../imagenes/headers/sidebar_panda.png");}
+
+/** Recruitment / Progress **/
+#sidebars .recruitment ul,
+#sidebars .progress ul,
+#sidebars .shoutbox ul,
+#sidebars .forumposts ul{
+	list-style:none;
+}
+#sidebars .recruitment li,
+#sidebars .progress li,
+#sidebars .shoutbox li,
+#sidebars .forumposts li{
+	display:block;
+	height:45px;
+	width:300px;
+	margin-top:1px;
+	
+	font-size:16px;
+	font-weight:bold;
+
+	font-family: 'Pontano Sans', sans-serif;
+}
+#sidebars .recruitment li:last-child,
+#sidebars .progress li:last-child,
+#sidebars .forumposts li:last-child,
+#sidebars .shoutbox li:last-child{
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-radius: 0px 0px 0px 10px;
+	border-radius: 0px 0px 0px 10px;
+}
+#sidebars li{background: url("../imagenes/sidebars/forumpost_bg.png");}
+
+#sidebars li.deathknight{background: url("../imagenes/sidebars/deathknight.png");}
+#sidebars li.druid{background: url("../imagenes/sidebars/druid.png");}
+#sidebars li.hunter{background: url("../imagenes/sidebars/hunter.png");}
+#sidebars li.mage{background: url("../imagenes/sidebars/mage.png");}
+#sidebars li.monk{background: url("../imagenes/sidebars/monk.png");}
+#sidebars li.paladin{background: url("../imagenes/sidebars/paladin.png");}
+#sidebars li.priest{background: url("../imagenes/sidebars/priest.png");}
+#sidebars li.rogue{background: url("../imagenes/sidebars/rogue.png");}
+#sidebars li.shaman{background: url("../imagenes/sidebars/shaman.png");}
+#sidebars li.warlock{background: url("../imagenes/sidebars/warlock.png");}
+#sidebars li.warrior{background: url("../imagenes/sidebars/warrior.png");}
+
+#sidebars li.dragonsoul{background: url("../imagenes/sidebars/dragonsoul.png");}
+#sidebars li.firelands{background: url("../imagenes/sidebars/firelands.png");}
+#sidebars li.blackwingdescent{background: url("../imagenes/sidebars/blackwingdescent.png");}
+
+
+#sidebars .recruitment li div,
+#sidebars .progress li div{
+	display:none;
+	background:#333;
+	opacity: 0.7;
+	height:45px;
+
+}
+#sidebars .recruitment li:last-child div,
+#sidebars .progress li:last-child div{
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-radius: 0px 0px 0px 10px;
+	border-radius: 0px 0px 0px 10px;	
+}
+#sidebars .recruitment li p,
+#sidebars .progress li p{
+	cursor:default;
+	color:#FFFFFF;
+	padding:1px;
+
+	font-size:11px;
+	font-weight:normal;
+	padding-right:4px;
+	vertical-align:middle;
+	display:table-cell;
+	height:44px;
+	line-height:17px;
+}
+#sidebars .recruitment li h3,
+#sidebars .progress li h3{
+	vertical-align:middle;
+	padding-left:10px;	
+	cursor:default;
+	font-size:13px;
+	display:table-cell;
+	width:100px;
+	height:44px;
+}
+
+/** Forum posts **/
+#sidebars .forumposts li:hover{	background: url("../imagenes/sidebars/forumpost_bg_hover.png");}
+#sidebars .forumposts li{
+	cursor:pointer;
+	height:60px;
+
+	display:block;
+}
+
+#sidebars .forumposts li *{
+	display:table-cell;
+	padding:0;
+}
+
+#sidebars .forumposts li>:nth-child(1){
+	float:none;
+	padding:12px 15px 0 22px;
+	background-position:15px 5px;
+}	
+#sidebars .forumposts li>:nth-child(1) img{
+	margin:0;	
+}
+#sidebars .forumposts li>:nth-child(2){
+	font-size:15px;
+	font-weight:normal;
+	vertical-align:top;
+	
+	
+}
+#sidebars .forumposts li>:nth-child(2) h2,
+#sidebars .forumposts li>:nth-child(2) p
+{
+	font-size:13px;
+	padding:8px 2px 0px 0px;
+	font-weight:bold;
+	text-shadow: 2px 2px 2px #000;
+	display:block;
+}
+#sidebars .forumposts li>:nth-child(2) p{
+	font-weight:normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 120px;
+	font-size:13px;
+	padding:0px 2px 2px 0px;
+	text-shadow:none;
+}
+#sidebars .forumposts li>:nth-child(3){
+	font-size:10px;
+	font-weight:normal;
+	width:85px;
+	text-align:center;
+	vertical-align:middle;
+	font-weight:bold;
+	color:#999999;
+	
+	
+}
+
+/* shotubox */
+#sidebars .shoutbox ul{
+	height:330px;
+	overflow:auto;
+	display:block;
+}
+#sidebars .shoutbox li {
+	height:auto;
+	background:url("../imagenes/layout/trans3.png");
+}
+#sidebars .shoutbox li.guild{
+	background:url("../imagenes/layout/trans3.png"),
+			   url("../imagenes/sidebars/shoutbox-guild.png") no-repeat right top;
+}
+#sidebars .shoutbox li.deleteable{
+	cursor:pointer;
+}
+#sidebars .shoutbox li span:nth-child(1),
+#sidebars .shoutbox li span:nth-child(2){
+	padding:10px 0px 3px 10px;
+	font-size:13px;	
+	text-shadow: 1px 1px 2px #000;
+}
+#sidebars .shoutbox li span:nth-child(2){
+	padding-left:0px;
+}
+#sidebars .shoutbox li p{
+	padding:0px 10px;
+	font-size:12px;
+	font-weight:normal;
+	word-wrap: break-word;
+}
+#sidebars .shoutbox > p{
+	padding:0;
+	
+}
+
+
+
+
+/***********************************
+			Newspost
+***********************************/
+article.newspost{
+	
+	margin-bottom:10px;
+}
+
+article.newspost>header{
+	height:55px;
+	width:100%;
+	background-image: url("../imagenes/headers/overlay.png");
+	background-repeat:repeat, no-repeat;
+	background-position:center, right;	
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomright: 0px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-radius: 0px 10px 0px 0px;
+border-radius: 0px 10px 0px 0px; 
+}
+article.newspost>header h2{ 
+	color:#CCC;
+	padding:10px 0 0 20px;
+	font-family: 'Frijole', sans-serif;
+	font-size:17px;
+		overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 520px;
+}
+article.newspost>header p{
+	padding-left:20px;
+	font-size:10px;
+	font-family: 'Codystar', sans-serif;
+	color:#FFFFFF;
+}
+article.newspost>section{
+	background: url("../imagenes/layout/post_shadow.png") top center no-repeat,
+				url("../imagenes/layout/trans3.png") repeat;
+}
+article.newspost>footer{
+	background: url("../imagenes/layout/trans1.png") repeat;
+	padding:5px;
+	height:28px;
+	text-align:right;
+}
+
+
+article.newspost section.comments{
+	
+	background: url("../imagenes/layout/trans1.png") repeat;
+}
+
+article.newspost>header.dragon{ background-image: url("../imagenes/headers/overlay.png"), url("../imagenes/headers/dragon.png");}
+article.newspost>header.folks{ background-image: url("../imagenes/headers/overlay.png"), url("../imagenes/headers/folks.png");}
+article.newspost>header.panda{ background-image: url("../imagenes/headers/overlay.png"), url("../imagenes/headers/panda.png");}
+article.newspost>header.mage{ background-image: url("../imagenes/headers/overlay.png"), url("../imagenes/headers/mage.png");}
+
+/** Comments **/
+.newspost section.comments{
+	padding-top:15px;
+	display:none;
+	width:600px;
+}
+.newspost section.comments article{
+	display:table;
+	padding:15px;
+	width:530px;
+	margin:15px auto;
+
+	background: url("../imagenes/layout/trans3.png") repeat;
+}
+.newspost section.comments article header{
+	display:table-cell;
+	width:100px;
+	text-align:center;
+	background: url("../imagenes/layout/trans3.png") repeat;
+}
+.newspost section.comments article header img{
+	border:1px solid #999;
+	margin:10px 0;
+}
+.newspost section.comments article div{
+	display:table-cell;
+	width:10px;
+}
+.newspost section.comments article section{
+	display:table-cell;
+	
+	margin-left:20px;
+	width:390px;
+	background: url("../imagenes/layout/trans3.png") repeat;
+	vertical-align:top;
+}

@@ -1,0 +1,5 @@
+User-agent: GoogleBot
+Disallow: /flash/
+Disallow: /libreria/
+Disallow: /fuentes/
+
